@@ -207,19 +207,30 @@ span {
   border-radius: 50%;
 }
 
-.about-content h2 {
-  text-align: left;
-  line-height: 1.2;
-}
-
 .about-content h3 {
   font-size: 2.6rem
+}
+
+.about-content span {
+  color: var(--main-color);
 }
 
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
   text-indent: 5px;
+}
+
+.team {
+  display: flex;
+}
+
+.team img {
+  width: 25vw;
+}
+
+.about-team {
+  padding: 35px;
 }
 
 .languages img {
