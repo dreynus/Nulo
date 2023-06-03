@@ -70,21 +70,16 @@ section {
   border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
 
-.logo a {
+.logo {
   font-size: 2.5rem;
-  color: var(--main-color);
+  color: var(--text-color);
   font-weight: 600;
   cursor: default;
-}
-
-.logo img {
-  width: 95px;
 }
 
 .navbar a {
   font-size: 1.7rem;
   color: var(--text-color);
-  font-weight: 600;
   margin-left: 4rem;
   transition: .3s;
 }
@@ -99,6 +94,7 @@ section {
   color: var(--text-color);
   display: none;
 }
+
 
 #modo-btn {
   background: none;
@@ -202,11 +198,6 @@ span {
   background: var(--second-bg-color);
 }
 
-.about-img img {
-  width: 35vw;
-  border-radius: 50%;
-}
-
 .about-content h3 {
   font-size: 2.6rem
 }
@@ -223,10 +214,12 @@ span {
 
 .team {
   display: flex;
+  margin-bottom: 80px;
 }
 
 .team img {
   width: 25vw;
+  border-radius: 50%;
 }
 
 .about-team {
@@ -234,13 +227,14 @@ span {
 }
 
 .languages img {
-  display: inline-flex;
+  display: inline-block;
   width: 6rem;
   height: 5rem;
   background: transparent;
   font-size: 5rem;
   margin: 0rem 0rem 3rem 0;
   transition: .5s ease;
+  border-radius: 0;
 }
 
 .languages img:hover {
@@ -300,7 +294,7 @@ span {
 @media (max-width: 991px) {
   .header {
     padding: 2rem 3%;
-  }
+}
 
   section {
     padding: 10rem 3% 2rem;
@@ -309,6 +303,20 @@ span {
   .services {
     padding-bottom: 7rem;
   }
+
+  .team {
+    display: block;
+  }
+  
+  .team img {
+    display: block;
+    margin: auto;
+  }
+
+  .languages img {
+    display: inline-block;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -352,6 +360,7 @@ span {
 
   .home-img img {
     width: 70vw;
+    max-width: 55vw;
     margin-top: 4rem;
   }
 
@@ -359,9 +368,25 @@ span {
     flex-direction: column-reverse;
   }
 
-  .about-img img {
-    width: 70vw;
-    margin-top: 4rem;
+  .about-content {
+    width: 100%;
+  }
+
+  .team img {
+    display: block;
+    margin: auto;
+    width: 55vw;
+    max-width: 45vw;
+  }
+
+  .about-team {
+    padding: 10px;
+  }
+
+  .languages img {
+    display: inline-block;
+    width: auto;
+
   }
 
   .services h2 {
