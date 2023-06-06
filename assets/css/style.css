@@ -379,6 +379,8 @@ span {
     margin: auto;
     width: 55vw;
     max-width: 45vw;
+    height: 55vw;
+    max-height: 55vw;
   }
 
   .about-team {
