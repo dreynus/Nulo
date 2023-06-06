@@ -380,7 +380,7 @@ span {
     width: 55vw;
     max-width: 45vw;
     height: 55vw;
-    max-height: 55vw;
+    max-height: 45vw;
   }
 
   .about-team {
@@ -389,7 +389,7 @@ span {
 
   .languages img {
     display: inline-block;
-    width: auto;
+    max-width: 10vw;
 
   }
 
