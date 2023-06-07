@@ -215,12 +215,12 @@ span {
 
 .team {
   display: flex;
-  margin-bottom: 80px;
+  margin-bottom: 35px;
 }
 
 .team img {
-  width: 25vw;
-  height: 25vw;
+  width: 20vw;
+  height: 20vw;
   border-radius: 50%;
 }
 
@@ -228,10 +228,15 @@ span {
   padding: 35px;
 }
 
+.about-team p {
+  margin-bottom: 10px;
+}
+
 .languages img {
   display: inline-block;
-  width: 6rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
+
   background: transparent;
   font-size: 5rem;
   margin: 0rem 0rem 3rem 0;
@@ -389,7 +394,8 @@ span {
 
   .languages img {
     display: inline-block;
-    max-width: 10vw;
+    max-width: 9vw;
+    max-height: 9vw;
 
   }
 
